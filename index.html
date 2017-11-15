@@ -199,7 +199,8 @@
 
 
 			emailjs.send("gmail", "template_pI4iwIUF", {
-					name: name + '  ' + mail,
+					name: name,
+					email: mail,
 					notes: msg
 				})
 				.then(
